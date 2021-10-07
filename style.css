@@ -1,0 +1,54 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Teko', sans-serif;
+	background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1 {
+	font-size: 3rem;
+	color: #92a7bd;
+}
+
+hr  {
+	border-color: #92a7bd;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height:10rem;
+}
+
+
+
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+
+}
+
+.btn-secondary {
+	background-color: #92a7bd;
+	border-color: #92a7bd;
+}
+
+
+/*Not changing the color for the time being. I like the current color*/
+
+.btn-secondary:hover {
+	border-width: 4px;
+}
+
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
